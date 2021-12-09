@@ -1,3 +1,10 @@
+bot=Client(
+    "TimeCalculate",
+    api_id = int(os.environ["API_ID"]),
+    api_hash = os.environ["API_HASH"],
+    bot_token = os.environ["BOT_TOKEN"]
+)
+
 <div id="delorean">
   <div id="title">delorean</div>
   <div id="ask">
