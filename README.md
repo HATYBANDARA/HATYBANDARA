@@ -1,11 +1,16 @@
-- 👋 Hi, I’m @HATYBANDARA
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-HATYBANDARA/HATYBANDARA is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
-<a href = t.me/Englishgrouphelp_bot > Hi </a> 
+<div id="delorean">
+  <div id="title">delorean</div>
+  <div id="ask">
+    <label id="text" for="number">Type here amount of days:</label>
+    <input type="text" id="number">
+  </div>
+  <div id="calc">calculation</div>
+  <div id="start">start</div>
+  <div id="result">
+    <div id="messege">after <span id="days"></span> days, come...</div>
+    <div id="dayOfWeek">day of week: <span id="day"></span></div>
+    <div id="dayOfMonth">date: <span id="date"></span></div>
+    <div id="monthOfYear">month: <span id="month"></span></div>
+    <div id="fullYear">year: <span id="year"></span></div>
+  </div>
+</div>e
